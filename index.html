@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Visualizacion Interactiva de Datos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="custom.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light navbar-light py-3">
+      <div class="container">
+        <a href="#" class="navbar-brand"><div><img src="img/CentroLogo.svg" class="w-25 p3" alt="">
+        </div>Especialidad en Visualizacion Interactiva de Datos</a>
+        <button 
+        class="navbar-toggler" 
+        type="button" 
+        data-bs-toggle="collapse" 
+        data-bs-target="#navmenu"
+        >
+        <span class="navbar-toggler-icon">
+        </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="#Introduction" class="nav-link">Intro</a>
+          </li>
+          <li class="nav-item">
+            <li class="nav-item">
+              <a href="#Top10" class="nav-link">Top 10</a>
+            </li>
+            <li class="nav-item">
+            <a href="#Sound" class="nav-link">Sound</a>
+          </li>
+          <li class="nav-item">
+            <a href="#Networks" class="nav-link">Networks</a>
+          </li>
+          <li class="nav-item">
+            <a href="#Conclusion" class="nav-link">Conclusion</a>
+          </li>
+          <li class="nav-item">
+            <a href="#References" class="nav-link">References</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+  <!--Intro-->
+  <section id=#Introduction class="bg-main-bg-color text-dark p-5 text-start">
+    <div class="container">
+      <div class="d-sm-flex align-items-center justify-content-between">
+          <div class="col-md">
+            <h1 class="display-3">
+              Unwrapping Spotify’s Top 10 Artists from 2021 to 2023
+            </h1>
+            <p class="lead">
+              In a world where volumes of data determine the idea of success, 
+              what the do these stats even mean? and most importantly, should we care?
+            </p>
+          </div>
+          <div class="col-md">
+            <h3 class="Display-4">
+              The Spotify wrapped dilemma
+            </h3>
+            <div>
+              <p></p>
+            </div>
+            <p>
+              The Spotify Wrapped trend in 2023 stirred significant controversy. Both artists and consumers 
+              expressed dissatisfaction with the streaming data provided, questioning its true value and the potential for 
+              Spotify to offer more insightful information that could benefit both parties.
+            </p>
+            <p>  
+              With this in mind, I examined datasets featuring the most popular songs from 2021 to 2023. 
+              This analysis aimed to uncover qualitative aspects of these top songs and 
+              investigate any commonalities that might explain their success.
+            </p>
+          </div>
+          </div>
+        <div>
+        </div>
+      </div>
+    </div>
+  </section>  
+  
+  <!--Top 10-->
+  <section id="#Top10" class="p-5">
+    <div class="container bg-light">
+      <div class="row text-center">
+      <div class="col-md-4">
+        <div id="Carousel-1" class="carousel carousel-dark slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active c-item w-30">
+              <img src="img/oliviarodrigo2021.svg" class="img-fluid" class="d-block w-100" c-img alt="1 2021">
+            </div>
+            <div class="carousel-item c-item w-30">
+              <img src="img/mileycyrus2023.svg" class="img-fluid" class="d-block w-100" c-img alt="1 2023">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#Carousel-1" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#Carousel-1" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+        <div class="col-md-4">
+          <img src="img/dojacat2021.svg" class="img-fluid" alt="">
+        </div>
+        <div class="col-md-4">
+          <img src="img/badbunny2021.svg" class="img-fluid" alt="">
+        </div>
+        <div class="col-md-4">
+          <img src="img/theweeknd2021.svg" class="img-fluid" alt="">
+        </div>
+        <div class="col-md-4">
+          <img src="img/lilnasx2021.svg" class="img-fluid" alt="">
+        </div>
+        <div class="col-md-4">
+          <img src="img/thekidlaroi2021.svg" class="img-fluid" alt="">
+        </div>
+        <div class="col-md-4">
+          <img src="img/maneskin2021.svg" class="img-fluid" alt="">
+        </div>
+        <div class="col-md p-5 text-start">
+          <h2 class="Display-5">
+            Mapping the Trends: Analyzing the 2021 Top 10 Through Visualization
+        </h2>
+        <p>
+          To analyze the Top 10 songs of 2021, I examined the correlation between the songs' rankings, their popularity, weeks on the chart, and peak positions. 
+          This analysis enabled me to construct a network that highlights the most popular artists of 2021.
+        </p>
+        <p>  
+          The visualization reveals a diverse representation of genres, including American pop, K-pop, European alternative pop, and Latin pop, 
+          showcasing the variety that dominated the charts in 2021.
+        </p>
+       </div>
+        <div class="col-md-4">
+          <img src="img/bts2021.svg" class="img-fluid" alt="">
+        </div>
+        <div class="col-md-4">
+          <img src="img/arianagrande2021.svg" class="img-fluid" alt="">
+        </div>
+        <div class="col-md-4">
+          <img src="img/dualipa2021.svg" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-4 py-5 text-center align-middle">
+          <h1 class="Display-3">
+            Women represent 40% of top 10 artists and 66% of artists ranked in the Top 3 Positions in Spotify
+          </h1>
+          <h6 class="Display-7 p-5">
+            From 2021 to 2023
+          </h6>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- What does it sound like -->
+<section id="#Sound" class="p-5">
+  <div class="container bg-light">
+    <div class="row text-center">
+        <div class="row">
+          <div class="col-md">
+            <h2 class="display-3 text-start">
+              Decoding the Sound of the Top 10 Hits
+            </h2>
+          </div>
+          <div class="col-md text-start p-3">
+            <p>
+              Music listening has evolved alongside human progress and technological advancements.
+            </p>
+            <p>  
+              For 2023, we can analyze the sonic characteristics of songs to understand the most popular combinations of tonality and tempo within top-ranked tracks.
+            </p>
+          <p>
+            Let’s explore how these elements appear in the rankings and uncover what makes a pop song most likely to chart.
+          </p>
+          </div>
+          
+<!-- Song Key Correlation -->
+
+<div>
+  <h3 class="Display-3 p-5">
+    Correlation of Most Streamed Songs’ Tonality and Tempo
+  </h3>
+  <h6 class="Display-7">
+    2023
+  </h6>
+</div>
+          <div>
+            <div class="flourish-embed flourish-scatter" data-src="visualisation/17811229"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+          </div>
+          <div class="col-md p-5 text-start">
+            <h2 class="Display-5">
+              The most popular combination for charted songs is G# at 120 bpm
+          </h2>
+          <p>
+            This is very interesting as we will see later on in the emotional intent of this specific key is associated with Death, Eternity, Judgement.
+          </p>
+          <p>  
+            There are a couple of runners-up with the G Tonality in 130 and 120 bpm as well as the C# Tonality 
+            at 102 bpm, showcasing the more modern Latin and techno incursions in music trends. 
+            This variety in tonalities and tempos highlights the evolving landscape of contemporary music, 
+            where diverse influences and styles converge to create chart-topping hits. These findings emphasize the eclectic nature of popular music today, 
+            reflecting a blend of traditional pop elements with innovative sounds from various genres. 
+          </p>
+          </div>
+          <div>
+
+            <h3 class="Display-3">
+              Top 2023 Artists and Charted Song Bpm
+            </h3>
+
+          </div>
+          <div>
+            <div class="flourish-embed flourish-sankey" 
+            data-src="visualisation/17811371">
+            <script src="https://public.flourish.studio/resources/embed.js">
+            </script></div>
+            <div class="col-md p-5 text-start">
+              <h2 class="Display-5">
+                In the top 10 we can see a representation of almost all the possible range of song tempos. 
+                However, the largest jump in tempo is between 122 and 144 bpm, characteristic of more club 
+                focused and undergorund electronic and alternative music.
+            </h2>
+          </div>
+          
+          <div>
+            <h3 class="Display-3">
+              Top 2023 Artists and Charted Song Keys
+            </h3>
+          </div>
+          <div>
+            <div class="flourish-embed flourish-sankey" data-src="visualisation/17811559">
+              <script src="https://public.flourish.studio/resources/embed.js">
+              </script></div>
+          </div>
+          <div class="col-md p-5 text-center">
+            <h2 class="Display-5 p-5">
+              The most popular song keys in the top 10 are D and F#
+          </h2>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Musical Key</th>
+                <th scope="col">Emotional Characteristic</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">C Major</th>
+                <td>Innocently Happy</td>
+              </tr>
+              <tr class="table-secondary">
+                <th scope="row">C# Major</th>
+                <td class="table-secondary">Grief, Depressive
+                </td>
+              </tr>
+              <tr class="table-success">
+                <th scope="row">D Major</th>
+                <td class="table-success">Triumphant, Victorious War-Cries
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">D# Major</th>
+                <td>Cruel, Hard, Yet Full of Devotion
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">F Major</th>
+                <td>Furious, Quick-Tempered, Passing Regret
+                </td>
+              </tr>
+              <tr class="table-success">
+                <th scope="row">F# Major</th>
+                <td class="table-success">Conquering Difficulties, Sighs of Relief
+                </td>
+              </tr>
+              <tr class="table-secondary">
+                <th scope="row">G Major</th>
+                <td class="table-secondary">Serious, Magnificent, Fantasy
+                </td>
+              </tr>
+              <tr class="table-warning">
+                <th scope="row">G# Major</th>
+                <td class="table-warning">Death, Eternity, Judgement
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">A Major</th>
+                <td>Joyful, Pastoral, Declaration of Love
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">A# Major</th>
+                <td>Joyful, Quaint, Cheerful
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">B Major</th>
+                <td>Harsh, Strong, Wild, Rage
+                </td>
+              </tr>
+              </tr>
+            </tbody>
+          </table>
+          <p class="lead text-start">
+            Here we can see the two most popular song keys are conveying a triumphant, victorious war-cry and the sense of conquering difficulties and sighs of relief.
+          </p>
+          <p class="lead text-start">  
+            Could we then interpret that the songs that are more popular are responding to a 
+            more global emotional state and thus contributing to their popularity? If analyzed further there's a possibility of finding a 
+            correlation between the emotional intentions of ranked songs and the general state of the audience. 
+          </p>
+          </div>
+       </div>
+    </div>
+    </section>        
+
+<!-- Networks -->
+
+<section id="#Networks" class="p-5">
+  <div class="container">
+    <div class="d-sm-flex align-items-center justify-content-between">
+      <div class="row">
+        <div class="col-md">
+          <h2 class="display-4">
+            Now that we've explored the sound of pop music, let's see what landscape at the top of the charts looks like.
+          </h2>
+        </div>
+        <div class="col-md">
+          <h3 class="Display-4 p-5">
+            Spotify Top Artist 2021 Network
+          </h3>
+          <div>
+            <p class="lead">
+              With access to the Spotify Artist Network generator, and focusing on the top ranked artist of 2021, I set out to discover what insights we could gain from the closest related artists in the network and 
+              what opportunities this structure may represent for artists within the Spotify ecosystem.
+            </p>
+          </div>
+          <p>
+            With a ForceAtlas 2 Layout, we can see that there is a inner circle of artists close to Olivia Rodrigo, and some artists being related by only one other node, showing some distance in relations between the higher degree related artists and more connections between the mid-range connected artists. 
+            In this sense this graph can show us some higher density grouping around the inner circle of artists.
+          </p>
+          <p>  
+            The graph below shows the artist network for Olivia Rodrigo, with a filter of 0.029 Closeness Centrality. Ranking only 20 other artists with this degree of relationship. 
+            This may infer low probability of being recommended by the Spotify Algorithm if not in the immediate circle of any specific artist.
+          </p>
+        </div>
+        <div>
+          <img src="img/ORNetwork-ForceAtlas2-2021.svg" class="img-fluid" alt="">
+        </div>
+        <div class="container">
+          <div class="d-sm-flex align-items-center justify-content-between">
+            <div class="row">
+        <div class="col-md-6 py-3">
+          <div>
+            <p>
+              Showing the Ego network of 1st degree closeness for Olivia Rodrigo shows a degree of centrality of 7.429 indicating a direct relationship around 7 artists. 
+              We can see that 3 of the connected artists in the Ego Network are also a part of the Top 10 ranking.
+              The graph’s density of 0.31 could imply a closely-knit community where members frequently interact. 
+              For Olivia Rodrigo, this could mean that she is part of a relatively cohesive group of artists or industry entities that regularly collaborate or influence one another.
+            </p>
+          </div>
+          </div>
+          <div class="col-md-6 py-3">
+            <div>
+              <p>
+                The graph has a modularity score of 0.189 which is relatively low, 
+                suggesting that the network does not have very strongly defined community structure. 
+                This implies that while there may be some clustering of nodes, these clusters are not particularly distinct or isolated from each other. This also indicates a network where communities are not strongly segregated, suggesting a fluid, interconnected social 
+                structure that could offer various collaborative and strategic opportunities within the music industry.
+              </p>
+            </div>
+        </div>
+      </div>
+    </div>
+       <div>
+          <img src="img/ORNetwork-DualCircle-2021.svg" class="img-fluid" alt="">
+        </div>
+        <div class="container">
+          <div class="d-sm-flex align-items-center justify-content-between">
+            <div class="row">
+              <div class="col-md py-5">
+                <h3 class="Display-4">
+                  Top artists and the labels behind them
+                </h3>
+                <div>
+                  <p class="lead">
+                    The top 10 artists Label and Conglomerate Network Diagram categorizes entities into independent record labels, record labels, and conglomerates, each depicted with distinct colors. This helps in understanding the hierarchy and affiliation structure within the music industry, 
+                    indicating which artists are signed to which labels and the overarching conglomerates they belong to.
+                  </p>
+                </div>
+                <p>
+                  Conglomerate Dominance and Influence How do these conglomerates influence music production and distribution dynamics? Universal Music Group, Sony Music Entertainment, and Warner Music Group appear prominently, dominating the chart through sub-labels 
+                  and only Rimas Entertainment holds a place in the charts as an independent label.
+                </p>
+              </div>
+              <div class="col-md py-5">
+               <div>
+                  <p class="lead">
+                    Label Roles Within Conglomerates shows labels aligning to different artist styles like Universal Music Group, through Republic Records showcasing Latino and BIPOC artists like The Weeknd and Ariana Grande and similarly on behalf of Sony Entertainment, 
+                    RCA showcases indpendent and leftfield music like the one created by Maneskin and Doja Cat.
+                  </p>
+                </div>
+                <p>
+                  What are the benefits and drawbacks of being under an independent label as opposed to a major label? The odds are set against independently owned labels, as the sheer volume of artist representation overwhelms the chances of reaching the top 10. Only Rimas Entertainment, and due to it being represented by Cultural Phenomenon: 
+                  Bad Bunny, seems to be able to compete with the big 3 conglomerates owning this space.
+                </p>
+              </div>
+              <div>
+                <img src="img/RecordLabelNetwork-Circular-2021.svg" class="img-fluid" alt="">
+              </div>
+              <div class="col-md p-5 text-center">
+                <h2 class="Display-5">
+                  The Top 10 Heirarchical Network
+              </h2>
+            </div>
+              <div>
+                <img src="img/RecordLabelNetwork-Isometric-2021.svg" class="img-fluid" alt="">
+              </div>
+            </section>
+
+<!-- Conclusion -->
+
+<section id="#Conclusion" class="p-5">
+            <div class="container">
+              <div class="d-sm-flex align-items-center justify-content-between">
+                <div class="row">
+                  <div class="col-md p-5 text-start">
+                    <h1 class="Display-4">
+                      What can we learn from this?
+                  </h1>
+                </div>
+            <div">
+              <div class="p-5">
+                <p>
+                  Interconnectivity and Influence
+                </P>
+                <p>
+                  The network analysis illustrates a significant degree of interconnectivity among top artists, 
+                  with Olivia Rodrigo at a focal point due to her high centrality measures. Her connections span across various influential artists and labels, suggesting her pivotal role in the network. This interconnectedness not only underlines her influence but also highlights the collaborative 
+                  environment of the industry, where relationships play a crucial role in shaping artists' careers.
+                </p>
+              </div>
+              </div>
+              <div>
+                <div>
+                  <p>
+                    Hierarchical and Modular Structure
+                  </P>
+                  <p>
+                    The hierarchical structure within the network is evident, with major conglomerates like 
+                    Sony Music Entertainment, Universal Music Group, and Warner Music Group exerting substantial influence over numerous labels and artists. Despite the apparent hierarchy, the network's relatively low modularity score 0.678 suggests that these communities are not rigidly 
+                    separated but rather fluid, allowing for cross-community collaborations and interactions.
+                  </p>
+                </div>
+              <div>
+                  <p>
+                    Algorithmic Implications
+                  </P>
+                  <p>
+                    The closeness centrality and network density metrics indicate that artists like 
+                    Olivia Rodrigo are likely to benefit from recommendation algorithms, enhancing their visibility and streaming potential. This aspect underscores the importance of strategic 
+                    network positioning in maximizing algorithmic opportunities on platforms like Spotify.
+                  </p>
+                </div>
+                <div>
+                  <p>
+                    Future Directions and Industry Dynamics
+                  </P>
+                  <p>
+                    The insights from these graphs can inform future strategic decisions for both 
+                    new and established artists. Understanding the network dynamics can help artists and their management teams make informed decisions regarding partnerships, label signings, or promotional strategies. For industry stakeholders, such as record labels and management companies, these insights are valuable for identifying potential signings or collaborations that could be 
+                    beneficial in terms of broadening their market influence and operational synergy.
+                  </p>
+                </div>
+            </div>
+  </section>
+  <div class="container">
+  <div class="d-sm-flex align-items-center justify-content-between">
+    <div class="row">
+  <div class="col-md">
+    <h1 class="display-3">
+      Conclusion: The fastest way to the top is by collaborating
+    </h1>
+    <p class="lead py-3">
+      Overall, the analysis of the Spotify Artist Network reveals a complex but navigable landscape 
+      of relationships and influences. For artists within this ecosystem, particularly those at the 
+      nexus of major connections like Olivia Rodrigo, the network presents numerous opportunities for 
+      growth and influence.  While discovering the keys to the sonic qualities that make a top-charting 
+      hit is invaluable, the most important and effective way to reach the top is through collaboration 
+      with similar artists who have an established community. For the industry, understanding these networks 
+      is crucial for adapting to the rapidly evolving music market, optimizing talent management, and 
+      strategizing future growth pathways in the digital age. These network insights not only reflect 
+      current industry structures but also offer a 
+      predictive gaze into the shifting paradigms of music production, promotion, and consumption.
+    </p>
+  </div>
+</div>
+</div>
+<div class="p-5">
+  <img src="img/VID-Spacer-Nico-2024.svg" class="img-fluid" alt="">
+</div>
+</div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  </body>
+</html>
